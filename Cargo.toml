@@ -6,5 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+simple_logger = "^1.16"
+log = "^0.4"
 fltk = { version = "^1.2", features = ["enable-glwindow"] }
 glu-sys = "0.1.4"
+scan_fmt = "0.2.6"
